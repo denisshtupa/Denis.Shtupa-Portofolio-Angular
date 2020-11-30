@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "Portofolio-Denis"
+  "defaultProject": "Portofolio-Denis",
+  "cli": {
+    "analytics": "2e99b644-0832-40ef-b842-4c92e830aa23"
+  }
 }
