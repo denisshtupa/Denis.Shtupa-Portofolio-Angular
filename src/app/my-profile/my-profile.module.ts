@@ -1,3 +1,4 @@
+import { ProfileIntroComponent } from './introduction/profile-intro.component';
 import { MyProfileService } from './my-profile.service';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -13,7 +14,8 @@ import { ProfileFooterComponent } from './footer/profile-footer.component';
   declarations: [
     MyProfileMainComponent,
     ProfileHeaderComponent,
-    ProfileFooterComponent
+    ProfileFooterComponent,
+    ProfileIntroComponent
   ],
   providers: [
     MyProfileService
