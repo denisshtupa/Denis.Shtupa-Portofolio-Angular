@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { MyProfileMainComponent, ProfileHeaderComponent } from '.';
+import { ProfileFooterComponent } from './footer/profile-footer.component';
 
 @NgModule({
   imports: [
@@ -11,10 +12,11 @@ import { MyProfileMainComponent, ProfileHeaderComponent } from '.';
   ],
   declarations: [
     MyProfileMainComponent,
-    ProfileHeaderComponent
+    ProfileHeaderComponent,
+    ProfileFooterComponent
   ],
   providers: [
-      MyProfileService
+    MyProfileService
   ]
 })
 export class MyProfileModule { }
