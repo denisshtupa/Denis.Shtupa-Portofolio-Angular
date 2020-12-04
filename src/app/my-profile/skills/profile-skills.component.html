@@ -1,0 +1,34 @@
+<div class="section" id="skill" style="margin-top:30px;">
+  <div class="container">
+    <div class="h4 text-center mb-4 title">Skills</div>
+    <div class="card">
+      <div class="card-body">
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container " *ngFor="let skillFe of this.skillsListFE">
+              <span class="progress-badge">{{skillFe.skill}}</span>
+
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" [class]="this.calculateClassOfProgressBar(skillFe.value)"
+                  role="progressbar" [style.width]="skillFe.percentage.toString()">{{skillFe.percentage}}</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="progress-container progress-primary" *ngFor="let skillBe of this.skillsListBE">
+              <span class="progress-badge">{{skillBe.skill}}</span>
+
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped" [class]="this.calculateClassOfProgressBar(skillBe.value)"
+                  role="progressbar" [style.width]="skillBe.percentage.toString()">{{skillBe.percentage}}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

@@ -4,5 +4,7 @@ import { Component } from '@angular/core';
   selector: 'my-profile-main',
   templateUrl: './my-profile-main.component.html'
 })
+
 export class MyProfileMainComponent {
+  
 }
