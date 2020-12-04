@@ -1,3 +1,5 @@
+import { ProfileProjectsComponent } from './projects/profile-projects.component';
+import { ProfileExperienceComponent } from './experience/profile-experience.component';
 import { ProfileAboutComponent } from './about/profile-about.component';
 import { ProfileIntroComponent } from './introduction/profile-intro.component';
 import { MyProfileService } from './my-profile.service';
@@ -17,7 +19,9 @@ import { ProfileFooterComponent } from './footer/profile-footer.component';
     ProfileHeaderComponent,
     ProfileFooterComponent,
     ProfileIntroComponent,
-    ProfileAboutComponent
+    ProfileAboutComponent,
+    ProfileExperienceComponent,
+    ProfileProjectsComponent
   ],
   providers: [
     MyProfileService

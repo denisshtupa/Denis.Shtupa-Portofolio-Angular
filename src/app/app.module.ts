@@ -27,7 +27,6 @@ const config: ExtraOptions = {
     RouterModule.forRoot(routes, config),
     AppRoutingModule,
     MyProfileModule
-
   ],
   providers: [],
   bootstrap: [AppComponent]
