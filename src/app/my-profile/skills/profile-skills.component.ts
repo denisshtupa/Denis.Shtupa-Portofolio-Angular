@@ -14,8 +14,9 @@ export class ProfileSkillsComponent implements OnInit {
         { id: 5, skill: "jQuery", value: 80, percentage: "80%"},
         { id: 6, skill: "HTML", value: 95, percentage: "95%"},
         { id: 7, skill: "CSS", value: 85, percentage: "85%"},
-        { id: 8, skill: "Typescript", value: 85, percentage: "85%"},
-        { id: 9, skill: "Bootstrap", value: 75, percentage: "75%"}
+        { id: 8, skill: "Sass", value: 75, percentage: "75%"},
+        { id: 9, skill: "Typescript", value: 85, percentage: "85%"},
+        { id: 10, skill: "Bootstrap", value: 75, percentage: "75%"}
     ]
 
     public skillsListBE: ISkills[] = [

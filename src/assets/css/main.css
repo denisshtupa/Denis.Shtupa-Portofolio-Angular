@@ -3288,10 +3288,10 @@ img {
 
 .page-header .container > .content-center {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  /* /* top: 50%;
+  /* left: 50%; */
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); 
   text-align: center;
   padding: 0 15px;
   color: #FFFFFF;
@@ -5044,4 +5044,9 @@ a.credit {
 /* Common Style */
 .section {
   padding-bottom: 0;
+}
+
+html {
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif !important; 
+  font-size:18px ;
 }
