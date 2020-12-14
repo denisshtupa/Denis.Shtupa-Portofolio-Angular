@@ -15,6 +15,8 @@ a {
 }
 
 .grid-movie-cards {
+  border-radius: 15px;
+  box-shadow: 2px 2px 15px 4px #46cff1 !important;
   background-color: #006074 !important;
   font-style: oblique;
   display: grid;
@@ -34,9 +36,28 @@ a {
 }
 
 .photo-profile {
-  margin: 7px;
+  margin-top: 20px;
+  border-radius:10px;
   padding: 10px;
-  box-shadow: 2px 2px 15px 4px #88889A;
+  box-shadow: 2px 2px 15px 4px #79c5d8;
+}
+
+#profile-about-card {
+  border-radius: 15px !important;
+  box-shadow: 2px 2px 15px 4px #79c5d8 !important;
+  margin-top: 25px;
+}
+
+#profile-skills-card {
+  border-radius: 15px !important;
+  box-shadow: 2px 2px 15px 4px #79c5d8 !important;
+  margin-top: 25px;
+}
+
+#profile-contact-card {
+  border-radius: 15px !important;
+  box-shadow: 2px 2px 15px 4px #79c5d8 !important;
+  margin-top:25px;
 }
 
 .project-card {
@@ -56,6 +77,30 @@ a {
   transition: transform .5s ease;
   transform: scale(1.05);
   border-radius: 15px;
+}
+
+#profile-skills-card > div > div > div {
+  padding: 10px !important;
+  line-height: 50px !important;
+}
+
+// phones
+@media (min-width: 300px) and (max-width: 450px) {
+  /* CSS */
+
+  .project-card{ 
+    width:103%;
+  }
+
+  .photo-profile {
+    margin-top: 40px;
+  }
+  
+  .button-container {
+    width: 117%;
+    margin: -7px !important;
+    padding: 0px !important;
+    left: -10px;  }
 }
 
 

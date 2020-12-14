@@ -7,15 +7,15 @@ import { Component, OnInit } from '@angular/core';
 export class ProfileSkillsComponent implements OnInit {
 
     public skillsListFE: ISkills[] = [
-        { id: 1, skill: "Angular", value: 90, percentage: "90%"},
+        { id: 1, skill: "Angular", value: 95, percentage: "95%"},
         { id: 2, skill: "React.js", value: 65, percentage: "65%"},
         { id: 3, skill: "Vue.js", value: 75, percentage: "75%"},
         { id: 4, skill: "Javascript", value: 80, percentage: "80%"},
         { id: 5, skill: "jQuery", value: 80, percentage: "80%"},
-        { id: 6, skill: "HTML", value: 95, percentage: "95%"},
+        { id: 6, skill: "HTML", value: 90, percentage: "90%"},
         { id: 7, skill: "CSS", value: 85, percentage: "85%"},
-        { id: 8, skill: "Sass", value: 75, percentage: "75%"},
-        { id: 9, skill: "Typescript", value: 85, percentage: "85%"},
+        { id: 8, skill: "Sass", value: 85, percentage: "85%"},
+        { id: 9, skill: "Typescript", value: 90, percentage: "90%"},
         { id: 10, skill: "Bootstrap", value: 75, percentage: "75%"}
     ]
 
