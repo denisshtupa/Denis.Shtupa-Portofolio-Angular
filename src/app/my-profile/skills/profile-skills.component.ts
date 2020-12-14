@@ -20,7 +20,7 @@ export class ProfileSkillsComponent implements OnInit {
 
     public skillsListBE: ISkills[] = [
         { id: 1, skill: "SQL", value: 85, percentage: "85%"},
-        { id: 2, skill: "GIT", value: 85, percentage: "85%"}
+        { id: 2, skill: "GIT", value: 85, percentage: "85%"},
         { id: 3, skill: "C#", value: 80, percentage: "80%"},
         { id: 4, skill: ".NET Core", value: 70, percentage: "70%"},
         { id: 5, skill: "Entity Framework", value: 70, percentage: "70%"},
