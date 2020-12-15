@@ -17,7 +17,7 @@ a {
 .grid-movie-cards {
   border-radius: 15px;
   box-shadow: 2px 2px 15px 4px #46cff1 !important;
-  background-color: #006074 !important;
+  background-color: #5da8b7 !important;
   font-style: oblique;
   display: grid;
   margin-top: 20px;
@@ -164,4 +164,15 @@ p.d-flex.justify-content-center {
   padding-top: 20px;
   padding-left: 10px;
   margin: 15px;
+}
+
+#header-navbar {
+  font-family: Verdana;
+  font-size: 13px;
+  color: #093840 !important;
+  text-transform: uppercase;
+  line-height: 1.9;
+  font-weight: bold;
+  letter-spacing: 1px;
+  word-spacing: 12px;
 }
