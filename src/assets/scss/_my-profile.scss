@@ -37,7 +37,7 @@ a {
 
 .photo-profile {
   margin-top: 20px;
-  border-radius:10px;
+  border-radius: 10px;
   padding: 10px;
   box-shadow: 2px 2px 15px 4px #79c5d8;
 }
@@ -57,7 +57,7 @@ a {
 #profile-contact-card {
   border-radius: 15px !important;
   box-shadow: 2px 2px 15px 4px #79c5d8 !important;
-  margin-top:25px;
+  margin-top: 25px;
 }
 
 .project-card {
@@ -79,28 +79,39 @@ a {
   border-radius: 15px;
 }
 
-#profile-skills-card > div > div > div {
+#profile-skills-card>div>div>div {
   padding: 10px !important;
   line-height: 50px !important;
+
+  &>div>span {
+    font-family: Verdana;
+    font-size: 18px;
+    color: #b58e8e;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
 }
 
 // phones
 @media (min-width: 300px) and (max-width: 450px) {
   /* CSS */
 
-  .project-card{ 
-    width:103%;
+  .project-card {
+    width: 103%;
   }
 
   .photo-profile {
     margin-top: 40px;
   }
-  
+
   .button-container {
     width: 117%;
     margin: -7px !important;
     padding: 0px !important;
-    left: -10px;  }
+    left: -10px;
+  }
 }
 
 
@@ -115,12 +126,42 @@ a {
 
   h4 {
     text-transform: uppercase !important;
-    margin-bottom:20px;
+    margin-bottom: 20px;
   }
+}
+
+.h4.text-center.title {
+  font-family: Verdana;
+  font-size: 30px;
+  color: #2fc2da;
+  text-transform: uppercase;
+  line-height: 2.5;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.h2.title.d-flex.justify-content-center {
+  font-family: Verdana;
+  font-size: 26px;
+  color: #096a79;
+  text-transform: uppercase;
+  line-height: 2.5;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+p.d-flex.justify-content-center {
+  font-family: Verdana;
+  font-size: 12px;
+  color: #093840;
+  text-transform: uppercase;
+  line-height: 1.5;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .button-container {
   padding-top: 20px;
-  padding-left:10px;  
-  margin:15px;
+  padding-left: 10px;
+  margin: 15px;
 }
