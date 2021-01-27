@@ -4,28 +4,25 @@
 
 
     <div class="grid-movie-cards">
-
-      <div class="project-card">
-
+      <div *ngFor="let project of projectsList; let i = index;" class="project-card">
         <div class="project-poster">
-          <img src="assets/images/movie-logo.png" width="100%" height="300" alt="Movie logo" />
+          <img [src]="project.posterUrl" width="100%" height="300" [alt]="project.alt" />
         </div>
 
         <div class="project-title">
-          <h4>Movies by genre & cast</h4>
-          <h5><b>Technology:</b> Angular 11, SASS </h5>
+          <h5>{{project.name}}</h5>
+          <h6><b>Tech stack:</b> {{project.techStack.join(', ')}} </h6>
         </div>
 
         <div class="button-container" style="padding-top: 40px;">
-          <a href="https://moviedb-denis.herokuapp.com/movie-db/new-movies" target="_blank" class="btn btn-primary stretched-link ml-2 mr-5"
+          <a [href]="project.liveDemoUrl" target="_blank" [style.cursor]="project.isLive ? 'pointer' : 'not-allowed'"  class="btn btn-primary stretched-link ml-2 mr-5"
             style="margin:10px;">Live demo</a>
-          <a href="https://github.com/denisshtupa/movie-db-app" target="_blank" class="btn btn-primary stretched-link"
+          <a [href]="project.githubLinkRepo" target="_blank" [style.cursor]="project.isLive ? 'pointer' : 'not-allowed'" class="btn btn-primary stretched-link"
             style="margin:10px;">Github link</a>
         </div>
-
       </div>
 
-      <div class="project-card">
+      <!-- <div class="project-card">
 
         <div class="project-poster">
           <img src="assets/images/game2.png" width="100%" height="300" alt="Game logo" />
@@ -42,9 +39,9 @@
           <a href="https://github.com/denisshtupa/rock-paper-scissors-gameapp" target="_blank"
             class="btn btn-primary stretched-link" style="margin:10px;">Github link</a>
         </div>
-      </div>
+      </div> -->
 
-      <div class="project-card">
+      <!-- <div class="project-card">
 
         <div class="project-poster">
           <img src="assets/images/google-map.png" alt="Google map markers" width="100%" height="300" />
@@ -61,7 +58,7 @@
           <a title="Available soon" [style.cursor]="'not-allowed'"  disabled target="_blank"
             class="btn btn-primary stretched-link" style="margin:10px;">Github link</a>
         </div>
-      </div>
+      </div> -->
 
     </div>
 
