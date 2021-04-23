@@ -2,12 +2,12 @@ header {
   //   height: 120vh;
   //   min-height: 300px;
   background-size: cover;
-  -webkit-box-shadow: inset 4px 4px 16px 3px #E6E7FF;
-  box-shadow: inset 4px 4px 16px 3px #E6E7FF;
+  -webkit-box-shadow: inset 4px 4px 16px 3px #e6e7ff;
+  box-shadow: inset 4px 4px 16px 3px #e6e7ff;
 }
 
 .hidden-spacer {
-  height: 56px
+  height: 56px;
 }
 
 a {
@@ -32,7 +32,7 @@ a {
   margin: 7px;
   border: 1px solid #0f25eb;
   padding: 5px;
-  box-shadow: 2px 2px 15px 4px #88889A;
+  box-shadow: 2px 2px 15px 4px #88889a;
 }
 
 .photo-profile {
@@ -69,21 +69,21 @@ a {
   background-color: #6696a1;
   color: #005073;
   width: 320px;
-  height: 520px
+  height: 520px;
 }
 
 .project-card:hover {
   opacity: 0.85;
-  transition: transform .5s ease;
+  transition: transform 0.5s ease;
   transform: scale(1.05);
   border-radius: 15px;
 }
 
-#profile-skills-card>div>div>div {
+#profile-skills-card > div > div > div {
   padding: 10px !important;
   line-height: 50px !important;
 
-  &>div>span {
+  & > div > span {
     font-family: Verdana;
     font-size: 18px;
     color: #b58e8e;
@@ -114,8 +114,7 @@ a {
   }
 }
 
-
-.project-poster>img {
+.project-poster > img {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -175,4 +174,10 @@ p.d-flex.justify-content-center {
   font-weight: bold;
   letter-spacing: 1px;
   word-spacing: 12px;
+}
+
+.hi-five:hover {
+  opacity: 0.85;
+  transition: transform 0.5s ease;
+  transform: scale(1.35);
 }

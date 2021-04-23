@@ -43,15 +43,15 @@ export class ProfileProjectsComponent implements OnInit {
       liveDemoUrl: "https://budget-reactjs-app.herokuapp.com/",
       githubLinkRepo: "https://github.com/denisshtupa/budget-react-app"
     },
-    {
-      name: "Products list", 
-      posterUrl: "assets/images/products_list.png",
-      techStack: [ "React.js", "Context API", "CSS" ],
-      alt: "Product's logo",
-      isLive: true,
-      liveDemoUrl: "https://products-list-reactjs.herokuapp.com/",
-      githubLinkRepo: "https://github.com/denisshtupa/u4i"
-    },
+    // {
+    //   name: "Products list", 
+    //   posterUrl: "assets/images/products_list.png",
+    //   techStack: [ "React.js", "Context API", "CSS" ],
+    //   alt: "Product's logo",
+    //   isLive: true,
+    //   liveDemoUrl: "https://products-list-reactjs.herokuapp.com/",
+    //   githubLinkRepo: "https://github.com/denisshtupa/u4i"
+    // },
     {
       name: "Google maps markers",
       posterUrl: "assets/images/google-map.png",
