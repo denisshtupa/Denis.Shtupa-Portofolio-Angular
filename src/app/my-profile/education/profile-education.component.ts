@@ -9,6 +9,4 @@ export class ProfileEducationComponent implements OnInit {
   ngOnInit() {
   }
 
-  
-
 }

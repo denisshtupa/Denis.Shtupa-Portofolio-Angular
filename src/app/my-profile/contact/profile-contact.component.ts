@@ -6,13 +6,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileContactComponent implements OnInit {
 
-    model: any = {};
+  model: any = {};
 
-    constructor() {
+  constructor() {
 
-    }
+  }
 
-    ngOnInit() {
-    }
+  ngOnInit() {
+  }
 
 }
