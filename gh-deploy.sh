@@ -16,7 +16,7 @@ ng build --configuration=production --base-href "https://denisshtupa.github.io/D
 
 # Deploy the built app to GitHub Pages
 echo "------------------Deploying the app to GitHub Pages------------------"
-ngh --dir=dist/Portfolio-Denis
+ngh --dir=dist/portofolio-denis
 
 echo "------------------Finalizing build------------------"
 ng build --configuration=production
